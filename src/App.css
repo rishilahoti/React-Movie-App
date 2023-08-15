@@ -1,0 +1,9 @@
+body {
+  background: rgb(20, 0, 37);
+  color: rgb(226, 194, 255);
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
