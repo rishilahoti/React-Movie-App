@@ -1,6 +1,7 @@
 body {
 	background: rgb(29, 29, 29);
 	color: #ffa0a0;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .movie-app > .row {
