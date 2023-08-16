@@ -64,7 +64,7 @@ const App = () => {
 				</div>
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
-			<div className='row'>
+			<div className='row flex-row'>
 				<MovieList
 					movies={movies}
 					handleFavouritesClick={addFavouriteMovie}
@@ -77,12 +77,14 @@ const App = () => {
 						<MovieListHeading heading='Favourites' />
 					</div>
 				</div>
-				<div className='row'>
-					<MovieList
-						movies={favourites}
-						handleFavouritesClick={removeFavouriteMovie}
-						favouriteComponent={RemoveFavourites}
-					/>
+				<div className='container-fluid'>
+					<div className='row flex-row'>
+						<MovieList
+							movies={favourites}
+							handleFavouritesClick={removeFavouriteMovie}
+							favouriteComponent={RemoveFavourites}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
