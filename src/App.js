@@ -6,7 +6,6 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavourites from './components/AddFavourites';
 import RemoveFavourites from './components/RemoveFavourites';
-import styled from 'styled-components';
 
 const App = () => {
 	const [movies, setMovies] = useState([]);
@@ -59,7 +58,7 @@ const App = () => {
 
 	return (
 		<div className='container-fluid movie-app'>
-			<div className='container bg-black d-flex align-items-center'>
+			<div className='container-fluid bg-black d-flex align-items-center'>
 				<div className='container mt-3'>
 					<MovieListHeading heading='PEPESEARCH' />
 				</div>
@@ -73,8 +72,8 @@ const App = () => {
 				/>
 			</div>
 			<div className='container-fluid'>
-				<div className='container bg-black d-flex align-items-center'>
-					<div className='container mt-3'>
+				<div className='container-fluid bg-black d-flex align-items-center'>
+					<div className='container-fluid mt-3'>
 						<MovieListHeading heading='Favourites' />
 					</div>
 				</div>
