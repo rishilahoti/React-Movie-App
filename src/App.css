@@ -1,6 +1,6 @@
 body {
-	background: #141414;
-	color: #ffffff;
+	background: #140913;
+	color: #b0efff;
 }
 
 .movie-app > .row {
@@ -11,6 +11,7 @@ body {
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
+	width: auto;
 }
 
 .image-container:hover {
@@ -25,8 +26,8 @@ body {
 .overlay {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.8);
-	width: 100%;
-	transition: 0.5s ease;
+	width: 92.8%;
+	transition: 0.3s ease-in;
 	opacity: 0;
 	bottom: 0;
 	font-size: 20px;
